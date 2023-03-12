@@ -569,5 +569,5 @@ class Function:
             return 0
         
 if __name__ == '__main__':
-    baseGrid = Grid(-10,10,-5,5, ['y=ln(x)','y=log(x,10)','y=log(100,x)'], False)
+    baseGrid = Grid(-10,10,-5,5, [], False)
     baseGrid.start()
